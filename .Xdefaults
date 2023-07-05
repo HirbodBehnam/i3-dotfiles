@@ -1,0 +1,7 @@
+*customization: -color
+XTerm*termName: xterm-256color
+XTerm*background: while
+XTerm*foreground: grey
+XTerm*pointerColor: #16A085
+XTerm*faceName: RobotoMono Nerd Font
+XTerm*faceSize: 13

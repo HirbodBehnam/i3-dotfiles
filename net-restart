@@ -1,0 +1,8 @@
+#!/bin/sh
+echo Bringing down old interface
+ifdown wlp2s0
+echo Waiting...
+sleep 5
+echo Starting again...
+ifup wlp2s0
+echo "nameserver 1.1.1.1" > /etc/resolv.conf
